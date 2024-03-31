@@ -1,0 +1,209 @@
+body {
+  width: 595px;
+  height: 842px;
+  margin: auto;
+}
+.heading {
+  color: red;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 40px 0px 44px;
+}
+.fs-first-div {
+  text-align: center;
+}
+.img1 {
+  width: 80px;
+  height: 80px;
+}
+.qid-text {
+  color: #898989;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  display: block;
+  margin-top: -4px;
+}
+.img2 {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
+.top-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  padding: 4px;
+  border: 1px solid #000;
+}
+
+.second-section {
+  padding: 0px 100px;
+  text-align: center;
+}
+.second-section p {
+  margin: 0;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  line-height: 16px;
+}
+.ss-top-txt {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+.ss-bottom-txt {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 16px;
+  padding-top: 8px;
+}
+.ss-other-txt {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
+
+.third-section {
+  background: url("/assets/logo2.png") no-repeat;
+  margin: 0px 40px;
+  min-height: 437px;
+  background-position: center;
+
+}
+.ts-first-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ts-txt {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.ts-big-txt {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.ts-child-div {
+  text-align: center;
+}
+.ts-bold-txt {
+  font-weight: 700;
+}
+
+.ts-second-div {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #000;
+}
+.ts-sd-first-section {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 8px;
+  gap: 70px;
+}
+.info-field {
+  width: 95px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-field-2 {
+  width: 35px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-field-3 {
+  width: 151px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-colon {
+  display: flex;
+  justify-content: end;
+}
+
+.ts-third-div {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ts-item {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.ts-item-col-1 {
+  width: 218px;
+}
+
+.ts-item-col-2 {
+  width: 289px;
+}
+
+.fourth-section {
+  /* margin-top: 56px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.sign-txt {
+  font-weight: 600;
+}
+.normal-txt {
+  font-weight: 400;
+}
+
+.fs-first-div > span {
+  display: block;
+  margin-top: 4px;
+}
+
+.fs-second-div > span {
+  display: block;
+  margin-top: 4px;
+}
+
+.fifth-section {
+  margin-top: 23px;
+  font-size: 8.5px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
